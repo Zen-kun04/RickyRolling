@@ -1,0 +1,5 @@
+name: RickyRolling
+version: ${project.version}
+main: com.lrak.rickyrolling.RickyRolling
+api-version: 1.17
+description: Hi, I'm Ricky and I'm rolling :D

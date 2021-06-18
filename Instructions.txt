@@ -1,0 +1,7 @@
+1- Download the JD-GUI free software (http://java-decompiler.github.io/)
+2- Install this plugin into your TESTING server
+3- Put this plugin into the JD-GUI graphical interface
+4- Start cracking!
+
+To be able to edit the code, just extract the full sourcecode of the plugin with the JD-GUI into a zip file,
+and import the classes to your IDE.
